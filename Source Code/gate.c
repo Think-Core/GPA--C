@@ -4,7 +4,7 @@ extern int len;
 void gate()
 {
 	
-	//insertinfo.sum=0;
+	
 	stuinfo[len].sum = 0;
 	printf("                        请输入您插入的信息:\n");
 	printf("                        请输入学号:");

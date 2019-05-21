@@ -7,7 +7,7 @@ extern struct student
 			float sum;
 	   };
 extern struct student stuinfo[100];
-extern int len;;
+extern int len;
 void print()
 {
 	int i=0;
@@ -16,11 +16,4 @@ void print()
 	for( i=0;i<len;i++)
 	{
 	printf("                        %ld      %s      %.2f    %.2f    %.2f      %.2f\n",stuinfo[i].stuid,stuinfo[i].name,stuinfo[i].CH,stuinfo[i].EN,stuinfo[i].MA,stuinfo[i].sum);
-	//printf("%.2f    %.2f    %.2f    %.2f\n",stuinfo[i].CH,stuinfo[i].EN,stuinfo[i].MA,stuinfo[i].sum);
-	}
-
-
-
 }
-
-

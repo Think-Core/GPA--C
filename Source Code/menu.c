@@ -3,8 +3,8 @@
 void init();
 void windows();
 void insert();
-extern int stusum;
-extern int addstunum;
+
+
 void menu()
 {
 	int choice;

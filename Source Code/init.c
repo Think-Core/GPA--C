@@ -11,7 +11,7 @@ struct student
 		float sum;
 	}stuinfo[100];
 extern int len;
-extern int stusum;
+
 void init()
 {
 	int choice;
@@ -36,10 +36,7 @@ void init()
 		printf("                        该学生的总成绩为%6.1f\n",stuinfo[len].sum=stuinfo[len].CH+stuinfo[len].MA+stuinfo[len].EN);
 	
 		len++;
-		if (len>=stusum)
-		{
-			break;
-		}
+		
 		
     }
 	printf("                        丨----------------------------------丨\n");

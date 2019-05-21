@@ -11,8 +11,7 @@ struct student
 	float CH,MA,EN;
 	float sum;
 }stuinfo[100];
-int len=0;
-int stusum;
+int len; 
 int main()
 {
 	windows();
