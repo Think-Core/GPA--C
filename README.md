@@ -14,10 +14,9 @@
 8. 结束
 
 
+         
 
-​             
-
-![界面](C:\Users\13910\OneDrive\图片\ScreenShoot\2019-05\GPA-Windows.png)
+![界面](https://github.com/Think-Core/GPA--C/blob/master/Image/GPA-Windows.png)
 
 
 
