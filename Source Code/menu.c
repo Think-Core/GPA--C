@@ -40,16 +40,19 @@ void menu()
 			case 3:
 				{
 					printf("                        3.删除学生成绩\n");
+					del();
 					break;
 				}
 			case 4:
 				{
 					printf("                        4.按姓名查询学生成绩\n");
+					Querybyname();
 					break;
 				}
 			case 5:
 				{
 					printf("                        5.按学号查询学生成绩\n");
+					Querybystuid();
 					break;
 				}
 			case 6:

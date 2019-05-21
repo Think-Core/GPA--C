@@ -1,39 +1,34 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include"StuInfo.h"
-void insert();
-void print();
-void menu();
-void init();
-void gate();
+extern void menu();
+extern void init();
+extern void print();
 extern int len;
 
-void insert()
+
+void del()
 {
-	int choice,insertsite,i;
-	
-	printf("                        请输入要添加的位置:[1---%d]:",len);
-	scanf("%d",&insertsite);
-	gate();
-	
-	if(insertsite>=1&&insertsite<=len+1)
+	int choice,delsite,i;
+	printf("请输入删除的位置:");
+	scanf("%d",&delsite);
+	if(delsite>1&&delsite<=len+2)
 	{
-		for( i=len-1;i>insertsite-2;i--)
+		for(i=delsite;i<len;i++)
 		{
-			stuinfo[i+1]=stuinfo[i];
+			stuinfo[i-1]=stuinfo[i];
 		}
-		stuinfo[insertsite-1]=stuinfo[len];
+		len--;
 		
-		
-	
 	}
 	else
 	{
-		printf("                        你输入的位置有误!!");
+		printf("                        输入的位置错误!!\n");
 	}
 	printf("                       丨---------------------------------------丨\n");
 	printf("                       丨              添加成功！               丨\n");
 	printf("                       丨---------------------------------------丨\n");
-	printf("                       丨            1.继续添加学生信息         丨\n");
+	printf("                       丨            1.继续删除学生信息         丨\n");
 	printf("                       丨            2.打印                     丨\n");
 	printf("                       丨            0.退出                     丨\n");
 	printf("                       丨---------------------------------------丨\n");
@@ -44,7 +39,7 @@ void insert()
 		case 1:
 			{
 				
-				insert();
+				del();
 				break;
 			}
 		case 2:print();break;

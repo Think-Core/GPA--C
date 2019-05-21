@@ -18,5 +18,5 @@ void gate()
 	printf("                        请输入学生语文成绩:");
 	scanf("%f",&stuinfo[len].CH);
 	printf("                        该学生的总成绩为:%6.1f\n",stuinfo[len].sum=stuinfo[len].MA+stuinfo[len].EN+stuinfo[len].CH);
-	
+	len++;
 }
