@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 #include"StuInfo.h"
 extern int len;
 void gate()

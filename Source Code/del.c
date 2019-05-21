@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 #include"StuInfo.h"
 extern void menu();
 extern void init();

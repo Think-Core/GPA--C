@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
 #include"StuInfo.h"
 void Querybystuid();
 void menu();

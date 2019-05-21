@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 void init();
 extern void menu();
 extern void print(); 
