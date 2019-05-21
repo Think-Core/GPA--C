@@ -5,6 +5,7 @@
 extern void menu();
 extern void init();
 extern void print();
+extern void del();
 extern int len;
 
 
